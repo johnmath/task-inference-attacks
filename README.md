@@ -1,19 +1,38 @@
-## Code for Submission \#3567 **Black-Box Privacy Attacks on Shared Representations in Multitask Learning**
+# Black-Box Privacy Attacks on Shared Representations in Multitask Learning
 
-To run notebook, first install [Anaconda](https://docs.conda.io/projects/conda/en/stable/user-guide/getting-started.html) and create and activate a new environment using the following commands:
+Code for the ICLR 2026 paper **Black-Box Privacy Attacks on Shared Representations in Multitask Learning**.
 
+## Setup
 
+First, install a Python package manager, then create and activate an environment.
+
+**Conda**
+```bash
+conda create --name taskinf python=3.11
+conda activate taskinf
 ```
-conda create --name ccs python=3.11
 
-conda activate ccs
+**UV**
+```bash
+uv venv
+source .venv/bin/activate
 ```
 
-Then, install jupyter using `pip install jupyterlab` and install all packages in `requirements.txt` using the following command:
-
-```
+Then install dependencies using `pip` or `uv pip`:
+```bash
 pip install -r requirements.txt
+# or
+uv pip install -r requirements.txt
 ```
+
+## Datasets
+
+Download CelebA from [Google Drive](https://drive.google.com/drive/folders/0B7EVK8r0v71pWEZsZE9oNnFzTm8?resourcekey=0-5BR16BdXnb8hVj6CNHKzLg) and save it in a directory ending in `celeba` (e.g. `/my/path/to/celeba/`). Use this full path as the `data_dir` parameter in the notebook.
+
+## Usage
+
+Open `celeba_personalization.ipynb` and set `data_dir` to your CelebA path, then run all cells.
+
 
 ## Datasets
 
