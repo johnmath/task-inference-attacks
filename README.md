@@ -1,6 +1,6 @@
 # Black-Box Privacy Attacks on Shared Representations in Multitask Learning
 
-Code for the ICLR 2026 paper **Black-Box Privacy Attacks on Shared Representations in Multitask Learning**.
+Code for the ICLR 2026 paper [**Black-Box Privacy Attacks on Shared Representations in Multitask Learning**](https://iclr.cc/virtual/2026/poster/10007576).
 
 ## Setup
 
